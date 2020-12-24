@@ -1,6 +1,6 @@
+
+
 from itertools import product
-
-
 
 def findPassword(chars, function, show=50, format_="%s"):
 
@@ -55,7 +55,18 @@ if __name__ == "__main__":
     import datetime
     import time
 
-
+    logo_shiv='''
+    #----------------------------------#
+    #----------------------------------#
+    #   PROJECT Password tester        #
+    #   AUTHOR:- SHIVAM SINGH          #
+    #----------------------------------#
+    #----------------------------------#
+    # this is made for password testing #
+    # purpose only so please do't       #
+    #        misuse  this               #
+    #-----------------------------------#'''
+    print(logo_shiv)
     pw = input("\n Please enter the password which you want to check: ")
     print("\n")
 
